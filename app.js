@@ -14,7 +14,7 @@
 if (/sou\.zhaopin\.com/.test(location.href)) {
     //添加列表页删除按钮
     $('.newlist_list_xlbtn').map(function (x, y) {
-        $(y).after("<br> <button style='margin-bottom:9px;margin-left:5px;width:15px' onclick='return false'>X<button> <button name='ALL' style='margin-bottom:9px;margin-left:5px;width:15px' onclick='return false'>ALL<button>");
+        $(y).after("<br> <button style='margin-bottom:9px;margin-left:5px;width:15px' onclick='return false'>X<button> <button name='ALL' style='margin-bottom:9px;margin-left:5px;width:25px' onclick='return false'>ALL<button>");
     });
     var table = $('tbody tr:first-child');
     var list = localStorage.list?JSON.parse(localStorage.list):{};
