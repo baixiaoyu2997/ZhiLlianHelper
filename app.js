@@ -89,10 +89,10 @@ function eventbtn() {
 
         var zwmc = $('#box_select_company2 option:selected').text();
 
-        if (gsmc == 'ALL') {
+        if (zwmc == 'ALL') {
             delete list[gsmc];
         } else {
-            delete list[gsmc][list[gsmc].indexOf(zwmc)];
+            list[gsmc].splice(list[gsmc].indexOf(zwmc),1);
         }
         
         localStorage.setItem('list', JSON.stringify(list));
