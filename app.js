@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         智联职位助手
 // @namespace    http://tampermonkey.net/
-// @version      0.7beta
+// @version      0.8
 // @description  屏蔽智联招聘列表中无用的公司与职位.可选择屏蔽该职位或者该公司.
 // @author       L.Rain
 // @match        http://sou.zhaopin.com/jobs/searchresult.ashx*
